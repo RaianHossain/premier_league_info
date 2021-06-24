@@ -1,0 +1,19 @@
+.body-container{    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px 30px;  
+    width:80%;  
+    margin: 0 auto;
+}
+
+.main-container{
+    background-color: #010417;
+    padding-top: 40px;
+}
+
+@media (max-width: 550px){
+    .body-container{
+        grid-template-columns:1fr;
+    }
+}
+

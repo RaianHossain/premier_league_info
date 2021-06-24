@@ -1,0 +1,8 @@
+.header{
+    height:250px;
+    width: 100%;
+    background-image: url(../../images/Premier-League-background\ \(1\).png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
